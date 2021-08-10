@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <style>
+        .col-md-3,td,tr
+        {
+            border: 1px solid black;
+        }
+    </style> 
+</head>
+<body>
+<div class="container-fluid" >
+<div class="row" style="background-color: rgb(48, 129, 184);">
+<div class="col-md-3">
+<center><input type="checkbox" id="ch1" onclick="fun()"></center>
+<img src="watch.jpg" style="margin-left: 100px;" height="150" width="150" class="img-fluid"><br>
+<b>Name:</b><label>Ladies Watch</label><br>
+<b>Description:</b><label>Ladies Watch</label><br>
+<b>Price:</b><label>Rs.2000/-</label><br>
+<b>Quantity:</b><input type="text" size="1" id="qty1"><br><br>
+</div>
+<div class="col-md-3">
+<center><input type="checkbox" id="ch2" onclick="fun1()"></center>
+<img src="clutches.jpg" style="margin-left: 100px; margin-top: 32px ;" height="150" width="150" class="img-fluid"><br>
+<b>Name:</b><label>Ladies Clutch</label><br>
+<b>Description:</b><label>Party Clutch</label><br>
+<b>Price:</b><label>Rs.2500/-</label><br>
+<b>Quantity:</b><input type="text" size="1"  id="qty2"><br><br>
+</div>
+
+<div class="col-md-3">
+<center><input type="checkbox"  id="ch3" onclick="fun2()"></center>
+<img src="facewash.jpg" style="margin-left: 100px;" height="150" width="150" class="img-fluid"><br>
+<b>Name:</b><label>Mama Earth Facewash</label><br>
+<b>Description:</b><label>Completely Herbal Product</label><br>
+<b>Price:</b><label>Rs.400/-</label><br>
+<b>Quantity:</b><input type="text" size="1"  id="qty3"><br><br>
+</div>
+
+<div class="col-md-3">
+<center><input type="checkbox"  id="ch4" onclick="fun3()"></center>
+<img src="facescanada_lipstick.jpg" style="margin-left: 100px;" height="150" width="150" class="img-fluid"><br>
+<b>Name:</b><label>Facec Canada Lipstick</label><br>
+<b>Description:</b><label>Matt Finishing</label><br>
+<b>Price:</b><label>Rs.800/-</label><br>
+<b>Quantity:</b><input type="text" size="1"  id="qty4"><br><br>
+</div>
+</div>
+
+<div class="row" style="background-color:rgb(154, 161, 236);">
+    <div class="col-md-3">
+    <center><input type="checkbox"  id="ch5" onclick="fun4()"></center>
+    <img src="freeze.jpg" style="margin-left: 100px; margin-top: 30px;" height="150" width="150" class="img-fluid"><br>
+    <b>Name:</b><label>Freeze</label><br>
+    <b>Description:</b><label>IBF Fully Spacious and with many more features </label><br>
+    <b>Price:</b><label>Rs.85000/-</label><br>
+    <b>Quantity:</b><input type="text" size="1"  id="qty5"><br><br>
+    </div>
+    <div class="col-md-3">
+    <center><input type="checkbox"  id="ch6" onclick="fun5()"></center>
+    <img src="lamp.jfif" style="margin-left: 100px; margin-top: 32px ;" height="150" width="150" class="img-fluid"><br>
+    <b>Name:</b><label>Table Lamp  </label><br>
+    <b>Description:</b><label>Modern And changeable direction</label><br>
+    <b>Price:</b><label>Rs.1500/-</label><br>
+    <b>Quantity:</b><input type="text" size="1"  id="qty6"><br><br>
+    </div>
+    
+    <div class="col-md-3">
+    <center><input type="checkbox"  id="ch7" onclick="fun6()"></center>
+    <img src="mango purse.webp" style="margin-left: 100px;" height="150" width="150" class="img-fluid"><br>
+    <b>Name:</b><label>Mango Purse</label><br>
+    <b>Description:</b><label>Fashinable compact in size</label><br>
+    <b>Price:</b><label>Rs.2500/-</label><br>
+    <b>Quantity:</b><input type="text" size="1"  id="qty7"><br><br>
+    </div>
+    
+    <div class="col-md-3">
+    <center><input type="checkbox"  id="ch8" onclick="fun7()"></center>
+    <img src="mirror.jpg" style="margin-left: 100px; margin-top: 42px;" height="150" width="150" class="img-fluid"><br>
+    <b>Name:</b><label>Mirror</label><br>
+    <b>Description:</b><label>Royal Look</label><br>
+    <b>Price:</b><label>Rs.800/-</label><br>
+    <b>Quantity:</b><input type="text" size="1"  id="qty8"><br><br>
+    </div>
+    </div>
+
+    <div class="row" style="background-color: rgb(48, 129, 184);">
+    <div class="col-md-3">
+        <center><input type="checkbox"  id="ch9" onclick="fun8()"></center>
+        <img src="pendrive stand.jpg" style="margin-left: 100px; margin-top: 150px;" height="150" width="150" class="img-fluid"><br>
+        <b>Name:</b><label>Pendrive stand</label><br>
+        <b>Description:</b><label>To arrange pendrives in a stand</label><br>
+        <b>Price:</b><label>Rs.85000/-</label><br>
+        <b>Quantity:</b><input type="text" size="1"  id="qty9"><br><br>
+        </div>
+        <div class="col-md-3">
+        <center><input type="checkbox"  id="ch10" onclick="fun9()"></center>
+        <img src="penstand.jpeg" style="margin-left: 100px; margin-top: 32px ;" height="150" width="150" class="img-fluid"><br>
+        <b>Name:</b><label>Penstand  </label><br>
+        <b>Description:</b><label>To Store Pens And Pencils</label><br>
+        <b>Price:</b><label>Rs.1500/-</label><br>
+        <b>Quantity:</b><input type="text" size="1"  id="qty10"><br><br>
+        </div>
+        
+        <div class="col-md-3">
+        <center><input type="checkbox"  id="ch11" onclick="fun10()"></center>
+        <img src="rest chair.jpg" style="margin-left: 100px; margin-top: 102px;" height="150" width="150" class="img-fluid"><br>
+        <b>Name:</b><label>Rest Chair </label><br>
+        <b>Description:</b><label>Completely Comfortable and Relaxing</label><br>
+        <b>Price:</b><label>Rs.400/-</label><br>
+        <b>Quantity:</b><input type="text" size="1"  id="qty11"><br><br>
+        </div>
+        
+        <div class="col-md-3">
+        <center><input type="checkbox"  id="ch12" onclick="fun11()"></center>
+        <img src="serum_mama earch.jpg" style="margin-left: 100px; margin-top: 102px;" height="150" width="150" class="img-fluid"><br>
+        <b>Name:</b><label>Mama Earth Serum</label><br>
+        <b>Description:</b><label>Herbal Product</label><br>
+        <b>Price:</b><label>Rs.600/-</label><br>
+        <b>Quantity:</b><input type="text" size="1"  id="qty12"><br><br>
+        </div>
+        </div>
+
+        <div class="row" style="background-color:rgb(154, 161, 236);">
+        <div class="col-md-3">
+            <center><input type="checkbox"  id="ch13" onclick="fun12()"></center>
+            <img src="sliding-door_cupboard.jpg" style="margin-left: 100px; margin-top: 150px;" height="150" width="150" class="img-fluid"><br>
+            <b>Name:</b><label>Pendrive stand</label><br>
+            <b>Description:</b><label>To arrange pendrives in a stand</label><br>
+            <b>Price:</b><label>Rs.85000/-</label><br>
+            <b>Quantity:</b><input type="text" size="1"  id="qty13"><br><br>
+            </div>
+            <div class="col-md-3">
+            <center><input type="checkbox"  id="ch14" onclick="fun13()"></center>
+            <img src="teapoy.webp" style="margin-left: 100px; margin-top: 200px ;" height="150" width="150" class="img-fluid"><br>
+            <b>Name:</b><label>Teapoy</label><br>
+            <b>Description:</b><label>To put things on it</label><br>
+            <b>Price:</b><label>Rs.3500/-</label><br>
+            <b>Quantity:</b><input type="text" size="1"  id="qty14"><br><br>
+            </div>
+            
+            <div class="col-md-3">
+            <center><input type="checkbox"  id="ch15" onclick="fun14()"></center>
+            <img src="washing_machine.jpg" style="margin-left: 100px; margin-top: 102px;" height="150" width="150" class="img-fluid"><br>
+            <b>Name:</b><label>Washing Machine </label><br>
+            <b>Description:</b><label>Front Door cleaing</label><br>
+            <b>Price:</b><label>Rs.40000/-</label><br>
+            <b>Quantity:</b><input type="text" size="1"  id="qty15"><br><br>
+            </div>
+            
+            <div class="col-md-3">
+            <center><input type="checkbox"  id="ch16" onclick="fun15()"></center>
+            <img src="curtains.jpg" style="margin-left: 100px; margin-top: 150px;" height="150" width="150" class="img-fluid"><br>
+            <b>Name:</b><label>Curtains</label><br>
+            <b>Description:</b><label>Design And texture is so good</label><br>
+            <b>Price:</b><label>Rs.1500/-</label><br>
+            <b>Quantity:</b><input type="text" size="1"  id="qty16" ><br><br>
+            </div>
+        </div>
+
+<ol id="dlist">
+
+
+</ol>
+<script>
+    function fun(){
+   if(document.getElementById("ch1").checked)
+   {
+          //document.getElementById("p1").innerHTML=<li></li>
+    var ul=document.getElementById("dlist");
+    
+    var q=document.getElementById("qty1")
+    var li=document.createElement("li");
+    li.setAttribute("id","b");
+    li.appendChild(document.createTextNode("Ladies Watch"))
+    li.appendChild(document.createTextNode("2000"))
+    li.appendChild(document.createTextNode(" "+q.value));
+    li.appendChild(document.createTextNode(" "+q.value*2000))
+    
+    ul.appendChild(li);
+      }else  
+      {
+         var f=document.getElementById("dlist")
+     var s=document.getElementById("b")
+     f.removeChild(s)
+      }
+     }
+
+     function fun1(){
+   if(document.getElementById("ch2").checked)
+   {
+          //document.getElementById("p1").innerHTML=<li></li>
+    var ul=document.getElementById("dlist");
+    
+    var q=document.getElementById("qty2")
+    var li=document.createElement("li");
+    li.setAttribute("id","b");
+    li.appendChild(document.createTextNode("Ladies Clutch"))
+    li.appendChild(document.createTextNode("2500"))
+    li.appendChild(document.createTextNode(" "+q.value));
+    li.appendChild(document.createTextNode(" "+q.value*2000))
+    
+    ul.appendChild(li);
+      }else  
+      {
+         var f=document.getElementById("dlist")
+     var s=document.getElementById("b")
+     f.removeChild(s)
+      }
+     }
+    
+
+function fun2(){
+    if(document.getElementById("ch3").checked)
+    {
+           //document.getElementById("p1").innerHTML=<li></li>
+     var ul=document.getElementById("dlist");
+     
+     var q=document.getElementById("qty3")
+     var li=document.createElement("li");
+     li.setAttribute("id","b");
+     li.appendChild(document.createTextNode("Face wash"))
+     li.appendChild(document.createTextNode("400"))
+     li.appendChild(document.createTextNode(" "+q.value));
+     li.appendChild(document.createTextNode(" "+q.value*2000))
+     
+     ul.appendChild(li);
+       }else  
+       {
+          var f=document.getElementById("dlist")
+      var s=document.getElementById("b")
+      f.removeChild(s)
+       }
+      }
+
+      function fun3(){
+        if(document.getElementById("ch4").checked)
+        {
+               //document.getElementById("p1").innerHTML=<li></li>
+         var ul=document.getElementById("dlist");
+         
+         var q=document.getElementById("qty4")
+         var li=document.createElement("li");
+         li.setAttribute("id","b");
+         li.appendChild(document.createTextNode("Faces Canada"))
+         li.appendChild(document.createTextNode("800"))
+         li.appendChild(document.createTextNode(" "+q.value));
+         li.appendChild(document.createTextNode(" "+q.value*2000))
+         
+         ul.appendChild(li);
+           }else  
+           {
+              var f=document.getElementById("dlist")
+          var s=document.getElementById("b")
+          f.removeChild(s)
+           }
+          }
+
+          function fun4(){
+        if(document.getElementById("ch5").checked)
+        {
+               //document.getElementById("p1").innerHTML=<li></li>
+         var ul=document.getElementById("dlist");
+         
+         var q=document.getElementById("qty5")
+         var li=document.createElement("li");
+         li.setAttribute("id","b");
+         li.appendChild(document.createTextNode("Freeze"))
+         li.appendChild(document.createTextNode("85000"))
+         li.appendChild(document.createTextNode(" "+q.value));
+         li.appendChild(document.createTextNode(" "+q.value*2000))
+         
+         ul.appendChild(li);
+           }else  
+           {
+              var f=document.getElementById("dlist")
+          var s=document.getElementById("b")
+          f.removeChild(s)
+           }
+          }
+
+          function fun5(){
+        if(document.getElementById("ch6").checked)
+        {
+               //document.getElementById("p1").innerHTML=<li></li>
+         var ul=document.getElementById("dlist");
+         
+         var q=document.getElementById("qty6")
+         var li=document.createElement("li");
+         li.setAttribute("id","b");
+         li.appendChild(document.createTextNode("Table Lamp"))
+         li.appendChild(document.createTextNode("1500"))
+         li.appendChild(document.createTextNode(" "+q.value));
+         li.appendChild(document.createTextNode(" "+q.value*2000))
+         
+         ul.appendChild(li);
+           }else  
+           {
+              var f=document.getElementById("dlist")
+          var s=document.getElementById("b")
+          f.removeChild(s)
+           }
+          }
+
+          function fun6(){
+        if(document.getElementById("ch7").checked)
+        {
+               //document.getElementById("p1").innerHTML=<li></li>
+         var ul=document.getElementById("dlist");
+         
+         var q=document.getElementById("qty7")
+         var li=document.createElement("li");
+         li.setAttribute("id","b");
+         li.appendChild(document.createTextNode("Mango Purse"))
+         li.appendChild(document.createTextNode("2500"))
+         li.appendChild(document.createTextNode(" "+q.value));
+         li.appendChild(document.createTextNode(" "+q.value*2000))
+         
+         ul.appendChild(li);
+           }else  
+           {
+              var f=document.getElementById("dlist")
+          var s=document.getElementById("b")
+          f.removeChild(s)
+           }
+          }
+        </script>
+<input type="button" value="Display Total amount of shopping">
+</body>
+</html>
